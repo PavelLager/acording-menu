@@ -1,0 +1,25 @@
+.acordions {
+    display: flex;
+    flex-direction: column;
+}
+
+.acordion {
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+.acordion_title{
+    display: flex;
+    justify-content: space-around;
+}
+.acordion_button {
+    background-color: blue;
+    width: 10px;
+    height: 10px;
+}
+
+.acordion_discription {
+    background-color: blueviolet;
+    display: none;
+}
