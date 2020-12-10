@@ -1,6 +1,7 @@
 .acordions {
     display: flex;
     flex-direction: column;
+    width: 300px;
 }
 
 .acordion {
@@ -15,8 +16,16 @@
 }
 .acordion_button {
     background-color: blue;
-    width: 10px;
-    height: 10px;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.acordion_button2 {
+    background-color: blue;
+    width: 20px;
+    height: 20px;
+    display: none;
 }
 
 .acordion_discription {
